@@ -1,0 +1,30 @@
+{
+  "name": "foodio",
+  "version": "1.0.0",
+  "description": "modern food delivery app using react & redux.",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meSatyam-1999/foodio.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "food"
+  ],
+  "author": "Satyam Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meSatyam-1999/foodio/issues"
+  },
+  "homepage": "https://github.com/meSatyam-1999/foodio#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
