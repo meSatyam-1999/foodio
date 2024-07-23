@@ -1,0 +1,39 @@
+#Igniting our app :-
+
+
+> Create html,css & javascript file nd link it together.
+
+> Git Initialize
+
+> npm set-up (npm init) 
+
+> Install Parcel bundler (npm i -D parcel) 
+
+> Create a ".gitignore" file nd skip the node module. (/node_modules)
+
+> After installing parcel bundler we ignite our app - (npx parcel index.html)
+
+        - npm => For installing a package.
+        - npx => For executing a package.
+
+> Now we want to use react in our project for that we use 2 paths 
+
+        - Use CDN links (not recommended)
+        - By typing (npm install react) {recommended}
+
+> We also install react dom in our project
+
+        - (npm i react-dom)
+
+> Remove the main script in package,json to run the parcel command.
+
+        - After that run a code (npx parcel build index.html) it generates two new folder - (dist)
+        & (.parcel-cache)
+        
+        - If we delete these 2 folders . we also re-generate it by (npx parcel index.html)
+
+> Put dist & .parcel-cache folder inside .gitignore.
+
+>
+
+>
